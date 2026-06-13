@@ -1,4 +1,4 @@
-import kaboom from "kaboom"; //"https://unpkg.com/kaboom/dist/kaboom.mjs";
+import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
 
 const k = kaboom({background: [20, 20, 30], });
 
