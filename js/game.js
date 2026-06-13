@@ -1,6 +1,11 @@
 import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
 
-const k = kaboom({background: [20, 20, 30], });
+const k = kaboom(
+  {
+    canvas: document.getElementById("game"),
+    background: [20, 20, 30],
+  }
+);
 
 const TILE_SIZE = 32;
 
